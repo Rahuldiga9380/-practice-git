@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p class="bio">Hi, I’m [Your Name], a coding enthusiast who loves bringing ideas to life on the web!</p>
+  </header>
+
+  <section class="skills">
+    <h2>Skills & Interests</h2>
+    <ul>
+      <li>🎯 Coding</li>
+      <li>🎵 Music</li>
+      <li>🍕 Pizza Lover</li>
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Intern at WebWizards (2023)</li>
+      <li>Volunteer Developer at Code4Good (2022)</li>
+      <li>Freelance Designer (2021 - Present)</li>
+    </ul>
+  </section>
+
+  <section class="extras">
+    <h2>Want to connect?</h2>
+    <button onclick="greet()">Click Me!</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
